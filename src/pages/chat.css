@@ -1,0 +1,27 @@
+.chat-box {
+  width: 60%;
+  background-color: #89cffd;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  display: flex;
+  overflow-y: auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.bottom-chats {
+  position: static;
+  bottom: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .chat-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #a5becc;
+    overflow-y: scroll;
+  }
+}

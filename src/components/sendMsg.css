@@ -1,0 +1,44 @@
+.send-msg {
+  display: flex;
+}
+
+.send-msg > .text {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.send-msg #file-input {
+  display: none;
+}
+
+.send-msg > div {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.send-msg svg:hover {
+  cursor: pointer;
+}
+
+.send-msg > button {
+  margin-left: 20px;
+  width: 100px;
+}
+
+.send-btn {
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+.send-btn > svg {
+  margin-left: 10px;
+}
+
+.send-btn:hover {
+  cursor: pointer;
+}

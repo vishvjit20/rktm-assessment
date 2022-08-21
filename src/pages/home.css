@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #89cffd;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.inner-home {
+  display: flex;
+  height: 90%;
+  width: 95%;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .inner-home {
+    flex-direction: column;
+  }
+}
